@@ -1,0 +1,71 @@
+h2{
+    color: rgb(0, 20, 20);
+}
+
+body{
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+
+}
+
+nav{
+    display: block;
+    font-size: 3rem;
+    background-color:lightgreen;  
+    text-align: center; 
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+table{
+    background-color: lightseagreen;
+    display: block;
+    font-size: 25px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.hobby{
+    
+    background-color:rgb(162, 235, 162);
+}
+
+.educations{
+    background-color: rgb(238, 238, 93);
+}
+
+.contact{
+    background-color: gray;
+}
+
+p::selection{
+    background-color:yellowgreen;
+    color: black;
+}
+
+i::selection{
+    background-color:yellowgreen;
+    color: black;
+
+}
+
+
+@media screen and (max-width :900px){
+    p{
+        font-size: 15px;
+    }
+    a{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    li{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 1rem;
+    }
+
+}
